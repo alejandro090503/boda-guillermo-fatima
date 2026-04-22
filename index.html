@@ -744,6 +744,19 @@ body{
   color:var(--dark);
   font-weight:600;
 }
+.gift-stores{display:flex;flex-direction:column;gap:14px;margin-top:4px}
+.btn-store{
+  display:flex;align-items:center;justify-content:center;gap:10px;
+  width:100%;padding:15px 24px;border-radius:50px;
+  text-decoration:none;
+  font-family:'Lato',sans-serif;font-weight:400;
+  font-size:14px;letter-spacing:2px;text-transform:uppercase;
+  transition:opacity .25s;
+}
+.btn-store:hover{opacity:.85}
+.btn-amazon{background:#FF9900;color:#fff}
+.btn-liverpool{background:#C8102E;color:#fff}
+.btn-store svg{width:20px;height:20px;fill:currentColor;flex-shrink:0}
 
 /* ── ÁLBUM QR ── */
 #album{padding:72px 28px;text-align:center;background:linear-gradient(to bottom,var(--bg) 0%,var(--surface) 14%,var(--surface) 86%,var(--bg) 100%)}
@@ -1210,8 +1223,16 @@ body{
         Sin embargo, si deseas celebrar este día con un obsequio, con profunda gratitud te compartimos los siguientes datos:
       </p>
       <div class="gift-divider"></div>
-      <div class="gift-bank-name">BBVA</div>
-      <div class="gift-account">4152 · 3135 · 9970 · 8893</div>
+      <div class="gift-stores">
+        <a href="https://www.amazon.com.mx/hz/wishlist/ls/guillermo-fatima" target="_blank" rel="noopener" class="btn-store btn-amazon">
+          <svg viewBox="0 0 24 24"><path d="M.045 18.02c.072-.116.187-.124.348-.022 3.636 2.11 7.594 3.166 11.87 3.166 2.852 0 5.668-.533 8.447-1.595l.315-.14c.138-.06.234-.1.293-.13.226-.088.39-.046.494.124.108.168.066.334-.124.496-.866.768-1.9 1.33-3.1 1.686a20.5 20.5 0 0 1-9.256.523c-2.897-.48-5.545-1.56-7.93-3.24-.154-.102-.196-.226-.126-.37zm6.02-9.366c0-1.29.324-2.37.978-3.24.654-.875 1.545-1.315 2.67-1.315 1.168 0 2.07.43 2.7 1.285.63.854.946 1.94.946 3.262 0 1.274-.324 2.336-.974 3.188-.648.854-1.548 1.278-2.698 1.278-1.156 0-2.05-.424-2.68-1.278-.627-.854-.94-1.916-.94-3.18zm2.68 10.36c-1.876 0-3.53-.39-4.962-1.167-1.432-.78-2.548-1.883-3.35-3.31-.8-1.428-1.2-3.07-1.2-4.924 0-1.793.402-3.385 1.204-4.776.802-1.39 1.912-2.47 3.33-3.238 1.42-.768 3.056-1.153 4.912-1.153 2.68 0 4.824.798 6.436 2.396 1.61 1.597 2.416 3.7 2.416 6.31 0 2.604-.808 4.71-2.424 6.32-1.614 1.608-3.756 2.544-6.362 2.544z"/></svg>
+          Lista en Amazon
+        </a>
+        <a href="https://www.liverpool.com.mx/tienda/listaboda" target="_blank" rel="noopener" class="btn-store btn-liverpool">
+          <svg viewBox="0 0 24 24"><path d="M20 7H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zm0 12H4V9h16v10zM12 3H8V1H7v2H5V1H4v2c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V1h-1v2h-2V1h-1v2z"/></svg>
+          Lista en Liverpool
+        </a>
+      </div>
     </div>
   </section>
 
@@ -1238,7 +1259,7 @@ body{
     <h2 class="script-title rv">Álbum Compartido</h2>
     <p class="album-note rv">¡Queremos ver la boda a través de tus ojos! Escanea el código y sube tus fotos y videos al álbum.</p>
     <div class="album-qr-wrap rv">
-      <img src="https://api.qrserver.com/v1/create-qr-code/?size=360x360&color=6B4E7A&bgcolor=FFFFFF&margin=18&data=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F1-URIICWXKLXudTlNamjNwKlC5FjCfcSy%3Fusp%3Dsharing" alt="QR Álbum de fotos">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=360x360&color=4E6B7A&bgcolor=F7F4F0&margin=18&data=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2FGuillermo-Fatima-Album-Boda-2026%3Fusp%3Dsharing" alt="QR Álbum de fotos">
       <span class="qr-label">Escanea para subir tus fotos</span>
     </div>
   </section>
