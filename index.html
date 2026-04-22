@@ -3,19 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,viewport-fit=cover">
-<title>Guillermo &amp; Fatima · 25 Julio 2026</title>
-<meta name="description" content="Nos casamos y queremos que estés ahí. Una noche especial en Ex Hacienda San Gabriel de las Palmas, Morelos — 25 de Julio 2026 · Abre tu invitación 💌">
+<title>Guillermo &amp; Fatima · 15 Mayo 2027</title>
+<meta name="description" content="Nos casamos y queremos que estés ahí. Una noche especial en Ex Hacienda San Gabriel de las Palmas, Morelos — 15 de Mayo 2027 · Abre tu invitación 💌">
 <meta property="og:type"        content="website">
 <meta property="og:url"         content="https://boda-guillermo-fatima.vercel.app/">
-<meta property="og:title"       content="💌 Guillermo &amp; Fatima · 25 · VII · MMXXVI">
-<meta property="og:description" content="Nos casamos y queremos que estés ahí. Una noche especial en Ex Hacienda San Gabriel de las Palmas, Morelos — 25 de Julio 2026 · Abre tu invitación ✉️">
+<meta property="og:title"       content="💌 Guillermo &amp; Fatima · 15 · Mayo · 2027">
+<meta property="og:description" content="Nos casamos y queremos que estés ahí. Una noche especial en Ex Hacienda San Gabriel de las Palmas, Morelos — 15 de Mayo 2027 · Abre tu invitación ✉️">
 <meta property="og:image"       content="https://boda-guillermo-fatima.vercel.app/sobre.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="800">
 <meta property="og:locale"      content="es_MX">
 <meta name="twitter:card"        content="summary_large_image">
-<meta name="twitter:title"       content="💌 Guillermo &amp; Fatima · 25 · VII · MMXXVI">
-<meta name="twitter:description" content="Nos casamos y queremos que estés ahí. Una noche especial en Ex Hacienda San Gabriel de las Palmas, Morelos — 25 de Julio 2026 ✉️">
+<meta name="twitter:title"       content="💌 Guillermo &amp; Fatima · 15 · Mayo · 2027">
+<meta name="twitter:description" content="Nos casamos y queremos que estés ahí. Una noche especial en Ex Hacienda San Gabriel de las Palmas, Morelos — 15 de Mayo 2027 ✉️">
 <meta name="twitter:image"       content="https://boda-guillermo-fatima.vercel.app/sobre.jpg">
 <script>if('scrollRestoration' in history){history.scrollRestoration='manual';}window.scrollTo(0,0);</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -670,21 +670,22 @@ body{
 .btn-wa{
   display:flex;align-items:center;justify-content:center;gap:10px;
   width:100%;margin-top:6px;
-  background:#25D366;
+  background:var(--dark);
   color:#fff;
   border:none;
   cursor:pointer;
   font-family:'Lato',sans-serif;
-  font-weight:400;
-  font-size:14px;
-  letter-spacing:2px;
+  font-weight:300;
+  font-size:13px;
+  letter-spacing:3px;
   text-transform:uppercase;
   padding:16px 24px;
   border-radius:50px;
-  transition:background .3s;
+  transition:background .3s,box-shadow .3s;
+  box-shadow:0 4px 18px rgba(107,78,122,.28);
 }
-.btn-wa:hover{background:#1ebe5a}
-.btn-wa svg{width:22px;height:22px;fill:currentColor;flex-shrink:0}
+.btn-wa:hover{background:var(--accent);box-shadow:0 6px 24px rgba(155,126,170,.38)}
+.btn-wa svg{width:20px;height:20px;fill:currentColor;flex-shrink:0;opacity:.85}
 
 /* ── SIN NIÑOS ── */
 .no-kids{
@@ -754,8 +755,10 @@ body{
   transition:opacity .25s;
 }
 .btn-store:hover{opacity:.85}
-.btn-amazon{background:#FF9900;color:#fff}
-.btn-liverpool{background:#C8102E;color:#fff}
+.btn-amazon{background:var(--surface);color:var(--dark);border:1.5px solid rgba(107,78,122,.25)}
+.btn-amazon:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
+.btn-liverpool{background:var(--dark);color:#fff}
+.btn-liverpool:hover{background:var(--accent)}
 .btn-store svg{width:20px;height:20px;fill:currentColor;flex-shrink:0}
 
 /* ── ÁLBUM QR ── */
@@ -862,7 +865,7 @@ body{
   <div class="ld-mono" id="ldMono">
     <span>F</span><span>&nbsp;</span><span>&amp;</span><span>&nbsp;</span><span>G</span>
   </div>
-  <p class="ld-tag" id="ldTag">Nos casamos &middot; 25 Julio 2026</p>
+  <p class="ld-tag" id="ldTag">Nos casamos &middot; 15 Mayo 2027</p>
 </div>
 
 <!-- ═══════════════════════════════════════════ PÉTALOS -->
@@ -934,7 +937,7 @@ body{
       <p class="fecha-label">Sábado</p>
       <div class="fecha-row">
         <span class="fecha-rule fecha-rule--l"></span>
-        <span class="fecha-main">25 &middot; Julio &middot; MMXXVI</span>
+        <span class="fecha-main">15 &middot; Mayo &middot; 2027</span>
         <span class="fecha-rule fecha-rule--r"></span>
       </div>
       <div class="fecha-vline"></div>
@@ -1025,7 +1028,7 @@ body{
     <!-- Calendario integrado dentro de Ubicación -->
     <div class="loc-cal-divider rv"></div>
     <p class="loc-cal-eyebrow rv">Agenda el día especial</p>
-    <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Boda+Guillermo+%26+Fatima&dates=20260726T010000Z/20260726T060000Z&details=Ceremonia+19%3A00+hrs+%7C+Recepcion+20%3A00+hrs+Ex+Hacienda+San+Gabriel+de+las+Palmas&location=Ex+Hacienda+San+Gabriel+de+las+Palmas+Amacuzac+Morelos+Mexico"
+    <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Boda+Guillermo+%26+Fatima&dates=20270516T000000Z/20270516T070000Z&details=Ceremonia+19%3A00+hrs+%7C+Recepcion+20%3A00+hrs+Ex+Hacienda+San+Gabriel+de+las+Palmas&location=Ex+Hacienda+San+Gabriel+de+las+Palmas+Amacuzac+Morelos+Mexico"
        target="_blank" rel="noopener" class="btn-cal rv">
       <svg viewBox="0 0 24 24"><path d="M19 3h-1V1h-2v2H8V1H6v2H5C3.89 4 3 4.9 3 6v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v10zM7 11h5v5H7z"/></svg>
       Guardar en Mi Calendario
@@ -1259,7 +1262,7 @@ body{
     <h2 class="script-title rv">Álbum Compartido</h2>
     <p class="album-note rv">¡Queremos ver la boda a través de tus ojos! Escanea el código y sube tus fotos y videos al álbum.</p>
     <div class="album-qr-wrap rv">
-      <img src="https://api.qrserver.com/v1/create-qr-code/?size=360x360&color=4E6B7A&bgcolor=F7F4F0&margin=18&data=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2FGuillermo-Fatima-Album-Boda-2026%3Fusp%3Dsharing" alt="QR Álbum de fotos">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=360x360&color=4E6B7A&bgcolor=F7F4F0&margin=18&data=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2FGuillermo-Fatima-Album-Boda-2027%3Fusp%3Dsharing" alt="QR Álbum de fotos">
       <span class="qr-label">Escanea para subir tus fotos</span>
     </div>
   </section>
@@ -1279,7 +1282,7 @@ body{
   <section id="rsvp" class="sec sec--bg">
     <p class="eyebrow rv">Confirma tu Asistencia</p>
     <h2 class="script-title rv">R.S.V.P.</h2>
-    <p class="rsvp-note rv">Fecha límite: 30 de junio de 2026</p>
+    <p class="rsvp-note rv">Fecha límite: 30 de abril de 2027</p>
 
     <div class="rsvp-card rv">
       <div class="rsvp-field">
@@ -1307,7 +1310,7 @@ body{
   <!-- ── 16. FOOTER ── -->
   <footer id="footer">
     <div class="footer-names rv">Guillermo &amp; Fatima</div>
-    <div class="footer-date rv">25 &middot; Julio &middot; MMXXVI</div>
+    <div class="footer-date rv">15 &middot; Mayo &middot; 2027</div>
     <div class="footer-hr"></div>
     <a href="https://www.instagram.com/elysium.invitaciones" target="_blank" rel="noopener" class="footer-credit">@elysium.invitaciones</a>
   </footer>
@@ -1508,7 +1511,7 @@ function initEnvelope(){
 
 /* ─────────────── COUNTDOWN ─────────────── */
 (function initCountdown(){
-  const TARGET = new Date('2026-07-25T19:00:00-06:00').getTime();
+  const TARGET = new Date('2027-05-15T19:00:00-06:00').getTime();
   const pad = (n, w = 2) => String(n).padStart(w, '0');
 
   function tick(){
